@@ -1,0 +1,12 @@
+# Site settings
+title: 海风如歌
+email: haifuncn@gmail.com
+description: "haifun "
+baseurl: ""
+url: "http://haifun.cn"
+twitter_username: haifuncn
+github_username:  haifun
+
+# Build settings
+markdown: kramdown
+permalink: /:month-:day-:year/:title/
