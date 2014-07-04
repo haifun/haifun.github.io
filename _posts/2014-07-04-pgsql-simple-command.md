@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PostgreSql入门命令"
+title:  "PostgreSql常用命令"
 date:   2014-07-04 10:05:32
 categories: pgsql
 ---
