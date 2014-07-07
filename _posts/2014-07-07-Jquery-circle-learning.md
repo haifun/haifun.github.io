@@ -106,7 +106,7 @@ categories: jquery
         callbacks.shift().apply( context, args );  
     }
 
-###16 while反复调用RegExp.exec（AJAX），能够否反复调是exec比re.test、String.match更加强大的原因，每次调用都将lastIndex属性设置到紧接着匹配字符串的字符位置  
+###16. while反复调用RegExp.exec（AJAX），能够否反复调是exec比re.test、String.match更加强大的原因，每次调用都将lastIndex属性设置到紧接着匹配字符串的字符位置  
     while( ( match = rheaders.exec( responseHeadersString ) ) ) {  
         responseHeaders[ match[1].toLowerCase() ] = match[ 2 ]; 
         // 将响应头以key-value的方式存在responseHeaders中  
