@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jquery中的循环技巧"
+title:  "Javascript中|| 和&&的用法技巧"
 date:   2014-07-08 13:55:07
 categories: jquery
 ---
