@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AngularJS的依赖注入方式"
-date:   2014-07-02 11:03:52
+date:   2014-07-18 10:03:52
 categories: AngularJS
 ---
 
