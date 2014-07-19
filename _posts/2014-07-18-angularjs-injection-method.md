@@ -13,6 +13,7 @@ categories: AngularJS
     myModule.controller('myCtrl', ['$scope', 'Project', function($scope, Project) {
 
     }]);
+
 ###方式二：
 
     var myModule = angular.module('myApp', []);
@@ -20,6 +21,7 @@ categories: AngularJS
 
     }
     myModule.controller('myCtrl', myCtrl);
+
 这两种方式在本质上并没有什么区别，不过方式二会造成作用域的污染。
 
 也许你还会意识到以上两种定义方式里的依赖注入的方式也有一些不一样，下面简单总结一下：
@@ -32,6 +34,7 @@ categories: AngularJS
     myModule.controller(function($scope,Project){
             
     })
+
 AngularJs会扫描function的参数，提取参数的名称(name)作为function的依赖，
 
 所以这种方式要求保证参数名称的正确性，但对参数的顺序并没有要求；
@@ -43,6 +46,7 @@ AngularJs会扫描function的参数，提取参数的名称(name)作为function�
     myModule.controller('myCtrl', ['$scope', 'Preject', function($scope, Project) {
             
     }])
+
 每一个依赖的参数值（字符串）都会以相同的顺序存放在一个数组里，数组的值与后面的function参数一一对应，这样即使压缩了也不会有什么问题。
 
 如果你不喜欢这种数组注释的定义方式，下面还有一种方式。
@@ -56,4 +60,5 @@ AngularJs提供了一种向injector server通知你想要注入的依赖的方�
     }
     myCtrl.$inject = ['$scope', 'Project'];
     myModule.controller('PhoneDetailCtrl', myCtrl);
+
 如上，通过设置funciton的$inject属性，可以达到依赖注入的效果；
