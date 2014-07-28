@@ -89,6 +89,7 @@ git stash可以把当前的改动（stage和unstage，但不包括untrack的文�
 
     cd 本地工作目录（自定）
     git clone 服务器帐户@IP：项目.根路经
+    
 这里具体操作为：
 
     git clone git@192.168.20.22：android2.2.git
@@ -111,17 +112,21 @@ git分支操作在本地建立分支，然后与本地主枝合并，最终提�
 1，  建立分支
 
     git branch AAA     #建立分支AAA
+
 2，分支切换
 
     git checkout AAA    #从当前分支切换到AAA分支
+
 3，  将分支与主枝master合并
 
     git checkout master     #（首先切换回主枝）
     git merge AAA         #（将分支AAA与主枝合并）
+
 4，  当前分支查看
 
     git  branch            #默认有master（也称为主枝）
     git  branch –a 查看当前所有分支
+
 5，  删除分支
 
     git branch –d  AAA     #删除分支AAA
