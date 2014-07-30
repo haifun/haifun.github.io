@@ -22,6 +22,7 @@ categories: Linux
 	.gftp .macromedia .remmina .cinnamon .gimp-2.8
 	.ssh .xsession-errors .compiz .gnome teamviewer_linux.deb
 	.xsession-errors.old .config .gnome2 .zoncolor-b
+
 	
 该ls命令选项可以把文件名中不可输出的字符用反斜杠加字符编号(就象在C语言里一样)的形式列出。
 
@@ -53,7 +54,9 @@ categories: Linux
 	drwxr-xr-x 2 ravisaive ravisaive 4096 Apr 30 20:50 Music
 	drwxr-xr-x 2 ravisaive ravisaive 4096 May 9 17:54 Pictures
 	drwxrwxr-x 5 ravisaive ravisaive 4096 May 3 18:44 Tecmint.com
-	drwxr-xr-x 2 ravisaive ravisaive 4096 Apr 30 20:50 Templates-m 该ls命令选项可以横向输出文件名，并以“，”作分格符。
+	drwxr-xr-x 2 ravisaive ravisaive 4096 Apr 30 20:50 Templates-m 
+	
+该ls命令选项可以横向输出文件名，并以“，”作分格符。
 
 -n 该ls命令选项可以用数字的GUID代替名称。
 
@@ -119,7 +122,7 @@ categories: Linux
 
 打开/etc/bashrc, 加入如下一行:
 
-alias ls=”ls –color”
+	alias ls=”ls –color”
 
 下次启动bash时就可以像在Slackware里那样显示彩色的目录列表了, 其中颜色的含义如下:
 
