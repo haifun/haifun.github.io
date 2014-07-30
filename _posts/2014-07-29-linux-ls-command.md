@@ -21,7 +21,9 @@ categories: Linux
 	.Xauthority .gconf .local .Xauthority.HGHVWW .cache
 	.gftp .macromedia .remmina .cinnamon .gimp-2.8
 	.ssh .xsession-errors .compiz .gnome teamviewer_linux.deb
-	.xsession-errors.old .config .gnome2 .zoncolor-b 该ls命令选项可以把文件名中不可输出的字符用反斜杠加字符编号(就象在C语言里一样)的形式列出。
+	.xsession-errors.old .config .gnome2 .zoncolor-b
+	
+该ls命令选项可以把文件名中不可输出的字符用反斜杠加字符编号(就象在C语言里一样)的形式列出。
 
 -c 该ls命令选项可以输出文件的 i 节点的修改时间，并以此排序。
 
