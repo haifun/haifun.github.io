@@ -14,6 +14,9 @@ categories: pgsql
 
     psql -h 172.16.35.179 -U username -d dbname
     
+
+如果是已经SSH登录到服务器上了，那就可以省略-h 
+    
 其中username为数据库用户名，dbname为要连接的数据库名，执行后提示输入密码如下：
 
     Password for user username: （在此输入密码）
