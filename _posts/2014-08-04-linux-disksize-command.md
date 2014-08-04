@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linux下查看磁盘空间"
-date:   2014-07-29 10:03:52
+date:   2014-08-04 10:03:52
 categories: Linux
 ---
 
