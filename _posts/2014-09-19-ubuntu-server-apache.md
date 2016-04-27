@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ubuntu server apache"
+title:  "ubuntu server apache php mysql"
 date:   2014-09-19 10:36:52
 categories: git
 ---
@@ -58,6 +58,31 @@ categories: git
 　　增加以下内容：
 
 　　ServerName 127.0.0.1:80
+
+安装php
+
+    sudo apt-get install libapache2-mod-php5 php5
+
+此外，建议安装扩展php5-gd php5-mysql，安装方式同上.
+安装完后，我们要重新启动Apache，让它加载PHP模块：
+
+    sudo /etc/init.d/apache2 restart
+
+安装mysql数据库:
+
+    sudo apt-get install mysql-server mysql-client
+
+
+安装phpmyadmin-Mysql数据库管理
+
+    sudo apt-get install phpmyadmin
+
+然后将phpmyadmin与apache2建立连接，以我的为例：www目录在/var/www，phpmyadmin在/usr/share /phpmyadmin目录，所以就用命令：
+
+    sudo ln -s /usr/share/phpmyadmin /var/www
+
+
+至此安装结束了
 
 
 ubuntu apache2配置
