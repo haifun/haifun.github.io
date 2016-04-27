@@ -5,9 +5,11 @@ date:   2014-09-19 10:36:52
 categories: git
 ---
 
-在Ubuntu中安装apache
+###在Ubuntu中安装apache
 
-　　安装指令：sudo apt-get install apache2
+　　安装指令：
+
+    sudo apt-get install apache2
 
 　　安装结束后：
 
@@ -59,7 +61,7 @@ categories: git
 
 　　ServerName 127.0.0.1:80
 
-安装php
+###安装php
 
     sudo apt-get install libapache2-mod-php5 php5
 
@@ -68,12 +70,12 @@ categories: git
 
     sudo /etc/init.d/apache2 restart
 
-安装mysql数据库:
+###安装mysql数据库:
 
     sudo apt-get install mysql-server mysql-client
 
 
-安装phpmyadmin-Mysql数据库管理
+###安装phpmyadmin-Mysql数据库管理
 
     sudo apt-get install phpmyadmin
 
@@ -152,7 +154,9 @@ Include /etc/apache2/sites-enabled/
     ServerAdmin webmaster@localhost
     
     DocumentRoot /var/www/
+
 ……
+
 这是设置虚拟主机的，对我来说没什么意义。所以我就把apache2.conf里的Include /etc/apache2/sites-enabled/一行注释掉了，并且在httpd.conf里设置DocumentRoot为我的用户目录下的某 个目录，这样方便开发。
 
 再看看/etc/apache2目录下的东西。刚才在apache2.conf里发现了sites-enabled目录，而在 /etc/apache2下还有一个sites-available目录，这里面是放什么的呢？其实，这里面才是真正的配置文件，而sites- enabled目录存放的只是一些指向这里的文件的符号链接，你可以用ls /etc/apache2/sites-enabled/来证实一下。所以，如果apache上配置了多个虚拟主机，每个虚拟主机的配置文件都放在 sites-available下，那么对于虚拟主机的停用、启用就非常方便了：当在sites-enabled下建立一个指向某个虚拟主机配置文件的链 接时，就启用了它；如果要关闭某个虚拟主机的话，只需删除相应的链接即可，根本不用去改配置文件。
