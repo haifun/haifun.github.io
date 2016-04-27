@@ -5,7 +5,7 @@ date:   2014-09-19 10:36:52
 categories: git
 ---
 
-###在Ubuntu中安装apache
+### 在Ubuntu中安装apache
 
 　　安装指令：
 
@@ -61,7 +61,7 @@ categories: git
 
 　　ServerName 127.0.0.1:80
 
-###安装php
+### 安装php
 
     sudo apt-get install libapache2-mod-php5 php5
 
@@ -70,12 +70,12 @@ categories: git
 
     sudo /etc/init.d/apache2 restart
 
-###安装mysql数据库:
+### 安装mysql数据库:
 
     sudo apt-get install mysql-server mysql-client
 
 
-###安装phpmyadmin-Mysql数据库管理
+### 安装phpmyadmin-Mysql数据库管理
 
     sudo apt-get install phpmyadmin
 
