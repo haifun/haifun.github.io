@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Front-End Newsletters, News Sites"
-date:   2016-05-18 09:00:00
+date:   2016-05-18 09:00:00 -0800
 categories: tools
 ---
 
