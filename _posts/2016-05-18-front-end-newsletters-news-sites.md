@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Front-End Newsletters, News Sites"
-date:   2016-05-18 09:00:00 -0800
+date:   2016-05-18 09:00:00 +0800
 categories: tools
 ---
 
@@ -48,6 +48,83 @@ categories: tools
 * [SVG Immersion Podcast](http://svgimmersion.com/)
 * [Web Animation Weekly](http://rachelnabors.us1.list-manage.com/subscribe?u=0a8f219cf8284562f91a26ee9&id=d60f6683d2)
 
+
+
+### 关注前端开发项目趋势
+
+* [前端 TOP 100](https://www.awesomes.cn/rank?sort=trend)
+
+## 常用的工具和插件
+
+移动版的jQuery
+
+* [zepto](https://github.com/madrobby/zepto)
+
+图表绘制库
+
+* [echarts](https://github.com/ecomfe/echarts)
+
+工具类函数
+
+* [lodash](https://lodash.com/docs)
+
+模块化
+
+* [webpack](https://github.com/webpack/webpack)
+* [requirejs](https://github.com/jrburke/requirejs)
+
+大框架
+
+* [Angular](https://github.com/angular/angular.js)
+
+Angular UI
+
+* [Angular UI](http://angular-ui.github.io/)
+
+
+动画库
+
+* [famous](http://famous.org/)
+
+构建API
+
+* [restify](https://github.com/restify/node-restify)
+* [dozerjs](http://dozerjs.com/)
+
+CMS
+
+* [keystonejs](http://keystonejs.com/)
+
+Express 构建网站
+
+* [Express](http://expressjs.com/)
+
+mongoose
+
+* [mongoose](https://github.com/Automattic/mongoose)
+
+CSS UI
+
+* [Bootstrap](http://www.bootcss.com/)
+* [Foundation](http://foundation.zurb.com/)
+* [netease](http://nec.netease.com/)
+
+async
+
+* [async](https://github.com/caolan/async)
+
+
+用来编写Api 契约文档
+
+* [apiary](https://apiary.io/)
+
+模拟数据
+
+* [mockjs](http://mockjs.com/)
+
+查看CSS HTML5的支持情况
+
+* [caniuse](http://caniuse.com/)
 
 
 
