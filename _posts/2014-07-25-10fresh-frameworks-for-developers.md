@@ -10,7 +10,7 @@ categories: code
 
 ###1. Famo.us
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/famous1.jpg" />](http://famo.us/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/famous1.jpg" />](http://famo.us/)
 
  
 
@@ -18,7 +18,7 @@ Famo.us是个免费并且开源的JavaScript平台，用来构建手机应用和
 
 ###2. Concise
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/concisecss.jpg" />](http://concisecss.com/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/concisecss.jpg" />](http://concisecss.com/)
 
  
 
@@ -26,13 +26,13 @@ Concise 的构建目标是使你可以拥有很多开箱即用的选项。它被
 
 ###3. Ampersand.js
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/ampersand-js.jpg" />](http://ampersandjs.com/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/ampersand-js.jpg" />](http://ampersandjs.com/)
 
 Ampersand.js是一个高度模块化，松耦合，无架构（non-frameworky）的框架，用以构建高端JavaScript应用。它是一个定义良好的过程，把一系列故意设计的很小的模块组合起来。每一个东西都是一个CommonJS组件。没有AMD和UMD，默认情况下也没有捆绑任何类型的插件。CommonJS的清晰、简单和灵活性主导了一切。清楚的依赖关系，没有任何不必要的封装和缩减，没有任何不规矩的东西。只在package.json里清楚的声明了项目依赖。
 
 ###4. OnSenUI
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/onsenui.jpeg" />](http://onsenui.io/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/onsenui.jpeg" />](http://onsenui.io/)
 
  
 
@@ -40,7 +40,7 @@ Onsen UI是一个为PhoneGap/Cordova混合App提供的前端开发框架。它�
 
 ###5. Archteype
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/archetype.jpg" />](http://www.archetypecss.com/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/archetype.jpg" />](http://www.archetypecss.com/)
 
  
 
@@ -48,7 +48,7 @@ Archteype是一个Compass/Sass框架，用于创建可配置的、可组合的UI
 
 ###6. Headstart
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/headstart.jpg" />](http://www.headstart.io/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/headstart.jpg" />](http://www.headstart.io/)
 
  
 
@@ -56,7 +56,7 @@ Headstart非常易用，分分钟就可以进行自动前端设定并运行起�
 
 ###7. Kickoff
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/kickoff.jpeg" />](http://tmwagency.github.io/kickoff/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/kickoff.jpeg" />](http://tmwagency.github.io/kickoff/)
 
  
 
@@ -64,7 +64,7 @@ Kickoff 是一个用来构建可扩展响应式站点的轻量级前端框架。
 
 ###8. Tuktuk
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/tuktuk1.jpg" />](http://tuktuk.tapquo.com/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/tuktuk1.jpg" />](http://tuktuk.tapquo.com/)
 
  
 
@@ -72,7 +72,7 @@ Tuktuk 是一个轻量级面向对象CSS框架，用来轻松的构建响应式�
 
 ###9. Base
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/base.jpeg" />](http://matthewhartman.github.io/base/)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/base.jpeg" />](http://matthewhartman.github.io/base/)
 
  
 
@@ -80,7 +80,7 @@ Base是用SASS/LESS开发的一个强大的CSS预处理器，它可以帮助你�
 
 ###10. Scribe
 
-[<img src="http://img.haifun.cn/uploads/2014/07/25/scribe2.jpg" />](https://github.com/guardian/scribe)
+[<img src="http://static.haifun.cn/uploads/2014/07/25/scribe2.jpg" />](https://github.com/guardian/scribe)
 
  
 
